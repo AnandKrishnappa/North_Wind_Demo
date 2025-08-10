@@ -16,7 +16,7 @@
       "toolsId": "58d79067-6c53-4eed-a277-35b2dceeefd8"
     },
     "dataSources": {
-      "mainService": {
+      "mainService": {clear
         "uri": "/V2/(S(0u4eh1yzxacfwa4w5dkllgse))/OData/OData.svc/",
         "type": "OData",
         "settings": {
