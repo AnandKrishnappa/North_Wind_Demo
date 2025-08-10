@@ -1,0 +1,32 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Table id='idProducts' items="{/results}">
+        <columns>
+            <Column id="idColumn1">
+                <Text text = "ID" id="idIdText"/>
+            </Column>
+            <Column id="idColumn2">
+                <Text text = "Name" id="idNameText"/>
+            </Column>
+            <Column id="idColumn3">
+                <Text text = "Price" id="idPriceText"/>
+            </Column>
+            <Column id="idColumn4">
+                <Text text = "Rating" id="idRatingText"/>
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem id="idColumnListItem">
+                <cells>
+                    <Text text = "{ID}" id="idIdValue"/>
+                    <Text text = "{NAME}" id="idNameValue"/>
+                    <Text text = "{Price}" id="idPriceValue"/>
+                    <Text text = "{Rating}" id="idRatingValue"/>
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+    </Page>
+</mvc:View>
